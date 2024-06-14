@@ -1,0 +1,78 @@
+body, html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../img/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header h1, header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+header {
+    color: white;
+    background-color: rgb(27, 182, 130);
+    padding-top: 0.2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+header nav img {
+    height: 2.5rem;
+}
+
+.header-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.header-ctn button {
+    padding: 0.5rem;
+    color: black;
+    background-color: #eeff00;
+    border: 0.5px solid black;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+}
+
+
+.header-ctn p {
+    width: 20rem;
+    text-align: start;
+    margin-left: 5rem;
+}
