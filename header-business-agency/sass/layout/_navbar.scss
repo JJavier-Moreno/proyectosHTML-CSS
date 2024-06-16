@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav p {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #424241;
+    line-height: 54px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 56px;
+    align-items: center;
+  }
+
+  nav ul li a {
+    color: #424241;
+    text-decoration: none;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+  }
